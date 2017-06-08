@@ -9,6 +9,7 @@ int **hMatrix;
 int **mcMatrixH;
 
 int main() {
+    // you can change input and output file name here!
     char *infile = "input200.txt";
 
     char *adjaList_file = "adjaList.txt";
@@ -20,10 +21,11 @@ int main() {
     int input = 0;
     int from, to;
 
+
     /*
      * Progrma UI
      */
-    printf("Welcomeo to homework6 (All-Pair Shortest Path Problem\n");
+    printf("Welcomeo to homework6 (All-Pair Shortest Path Problem)\n");
 
     while (1) {
         printf("(1)Make a graph\t(2)Find APSP with predecessor matrix\t");
@@ -423,4 +425,3 @@ void find_Hpath(int from, int to) {
     }
 
 }
-

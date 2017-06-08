@@ -2,7 +2,7 @@
 // Created by John on 2017-06-07.
 //
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 #include <assert.h>
 #include <limits.h>
 #include <string.h>
